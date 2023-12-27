@@ -5,7 +5,7 @@
   - [HW developing](./HwDeveloping/HwDeveloping.md)
   - [Linux tools and tipps](./Linux/Linux.md)
   - [Netwotk](./Network/Network.md)
-  - [Netwotk](./Tools/Tools.md)
+  - [Tools](./Tools/Tools.md)
 
 I collect some tipps and features here. Ported my mediawiki into markdown stuff
 
