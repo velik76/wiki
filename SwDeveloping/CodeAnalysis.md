@@ -23,7 +23,7 @@
 
 ## perf
 
-[Examples of calling](https://www.brendangregg.com/perf.html perf.html)
+[Examples of calling](https://www.brendangregg.com/perf.html)
 
 ### What is it
 

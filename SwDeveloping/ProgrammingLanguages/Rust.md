@@ -14,11 +14,14 @@ curl https://sh.rustup.rs -sSf | sh
 
 ## rustup
 
+Rustup is the toolchain installer
+
 | Command                | What for                                                               |
 | ---------------------- | ---------------------------------------------------------------------- |
 | build                  | Building project. Could be combined with --verbose, --debug, --release |
 | clean                  | Cleaning projec                                                        |
 | install cargo-binutils | Install binutils                                                       |
+| update                 | Update installed rust                                                  |
 
 ## Toolchains
 
