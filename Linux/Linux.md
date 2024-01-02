@@ -470,7 +470,7 @@ find /path [args] -exec [cmd] {} \;
 ```
 
 - {} Is a placeholder for the result found by find
-- \; Says that for each found result, the command cmd is executed once with the found result.
+- \\; Says that for each found result, the command cmd is executed once with the found result.
 - It is executed like this: cmd result1; cmd result2; …; cmd result N
 
 ```bash
@@ -478,7 +478,7 @@ find /path [args] -exec [cmd] {} \+
 ```
 
 - {} Is a placeholder for the result found by find
-- \+ Says that for all found results, the command cmd is executed with all the found results.
+- \\+ Says that for all found results, the command cmd is executed with all the found results.
 - It is executed like this: cmd result1 result2 … result N
 
 ## fold
