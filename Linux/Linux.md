@@ -8,7 +8,7 @@
   - [Find and delete old kernels](#find-and-delete-old-kernels)
   - [How to measure and monitore CPU temperature](#how-to-measure-and-monitore-cpu-temperature)
   - [Sending of the messages in KDE to desktop notifications](#sending-of-the-messages-in-kde-to-desktop-notifications)
-  - [Add a existing user to existing group](#add-a-existing-user-to-existing-group)
+  - [Add an existing user to existing group](#add-an-existing-user-to-existing-group)
   - [How To Create an ISO Image from a CD or DVD](#how-to-create-an-iso-image-from-a-cd-or-dvd)
   - [Running processes in background](#running-processes-in-background)
     - [jobs - Anzeige aktiver Jobs](#jobs---anzeige-aktiver-jobs)
@@ -44,6 +44,7 @@
     - [Start/Stop and so on](#startstop-and-so-on)
     - [Most important keys](#most-important-keys)
   - [find \& exec](#find--exec)
+  - [fold](#fold)
 
 ## [Docker](./Docker.md)
 
@@ -479,3 +480,11 @@ find /path [args] -exec [cmd] {} \+
 - {} Is a placeholder for the result found by find
 - \+ Says that for all found results, the command cmd is executed with all the found results.
 - It is executed like this: cmd result1 result2 … result N
+
+## fold
+
+Wrap each input line to fit in specified width
+
+```bash
+i2ctransfer -yf 6 w1@0x60 0 r128 | fold -w 80
+```
